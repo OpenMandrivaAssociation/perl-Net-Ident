@@ -13,7 +13,6 @@ Source0:	%{pkgname}-%{version}.tar.bz2
 BuildRequires:	perl-devel
 BuildRequires:	perl
 BuildArch:	noarch
-Buildroot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Net::Ident is a module that looks up the username on the remote
