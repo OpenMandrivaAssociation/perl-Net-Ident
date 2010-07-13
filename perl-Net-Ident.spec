@@ -1,5 +1,5 @@
 %define upstream_name    Net-Ident
-%define upstream_version 1.20
+%define upstream_version 1.23
 
 %define _provides_exceptions perl(FileHandle)
 
@@ -11,7 +11,7 @@ Summary:	Net::Ident - lookup the username on the remote end of a TCP/IP connecti
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildArch:	noarch
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}
