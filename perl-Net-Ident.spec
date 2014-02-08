@@ -10,7 +10,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	7
+Release:	8
 
 Summary:	Net::Ident - lookup the username on the remote end of a TCP/IP connection
 License:	GPL+ or Artistic
