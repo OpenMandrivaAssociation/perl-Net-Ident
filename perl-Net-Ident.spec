@@ -11,7 +11,7 @@
 Summary:	Net::Ident - lookup the username on the remote end of a TCP/IP connection
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	11
+Release:	12
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
