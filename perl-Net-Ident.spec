@@ -1,5 +1,5 @@
 %define modname	Net-Ident
-%define modver	1.23
+%define modver	1.31
 
 %if %{_use_internal_dependency_generator}
 %define __noautoreq 'perl\\(FileHandle\\)'
@@ -10,12 +10,12 @@
 
 Summary:	Net::Ident - lookup the username on the remote end of a TCP/IP connection
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	19
+Version:	%{modver}
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Net/%{modname}-%{modver}.tar.gz
+Url:		https://github.com/cpan-authors/Net-Ident
+Source0:	https://cpan.metacpan.org/authors/id/T/TO/TODDR/Net-Ident-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl-devel
